@@ -1,0 +1,4 @@
+      6      78     450
+      ^ count the number of liens
+              ^ counts the number of words
+                     ^ counts th number of bytes

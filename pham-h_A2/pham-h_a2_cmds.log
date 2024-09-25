@@ -1,0 +1,5 @@
+    1  grep -o '\bwor\w*' goodluck.txt 
+    2  grep "Good luck, babe" goodluck.txt
+    3  grep "dred" goodluck.txt 
+    4  grep "Good luck, babe" goodluck.txt | wc
+    5  history > pham-h_a2_cmds.log
