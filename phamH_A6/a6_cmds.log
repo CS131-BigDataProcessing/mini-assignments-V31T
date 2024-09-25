@@ -1,0 +1,74 @@
+    1  grep -o '\bwor\w*' goodluck.txt 
+    2  grep "Good luck, babe" goodluck.txt
+    3  grep "dred" goodluck.txt 
+    4  grep "Good luck, babe" goodluck.txt | wc
+    5  history > pham-h_a2_cmds.log
+    6  cd ..
+    7  cd mini-assignments-V31T/
+    8  tree
+    9  mkdir pham-h_A2
+   10  pwd
+   11  cd pham
+   12  cd pham-h_A2
+   13  pwd
+   14  cd ../..
+   15  cd CS131_fa24_datafiles/
+   16  cd Lec02
+   17  tree
+   18  mv pham-h_a2_cmds.log ../../mini-assignments-V31T/pham-h_A2/
+   19  mv pham-h_a2_counts.log ../../mini-assignments-V31T/pham-h_A2/
+   20  mv pham-h_a2_counts.txt ../../mini-assignments-V31T/pham-h_A2/
+   21  mv pham-henry_a2_counts.txt ../../mini-assignments-V31T/pham-h_A2/
+   22  cd ../../mini-assignments-V31T/
+   23  cd pham-h_A2/
+   24  ls
+   25  git status
+   26  git add ./
+   27  git commit -m "trying to push A2"
+   28  git push origin main
+   29  cd ..
+   30  tree
+   31  cd CS131_fa24_datafiles/Lec02
+   32  cd ..
+   33  cd Lec08
+   34  man mv
+   35  mv --help
+   36  awk --help
+   37  > airline_inquiry.txt
+   38  vi airline_inquiry.txt 
+   39  man awk
+   40  awk '{print $4'} airline_stats.csv 
+   41  awk -F, '{print $4'} airline_stats.csv 
+   42  awk -F, '{print $4 uniq'} airline_stats.csv 
+   43  awk -F, '{print $4'} airline_stats.csv | uniq
+   44  awk -F, '{print $4'} airline_stats.csv | sort |  uniq
+   45  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort |  uniq
+   46  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort
+   47  awk -F, '{print $4'} airline_stats.csv | sort |  uniq
+   48  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort |  uniq
+   49  awk -F, '$1 > 10 {print $4'} airline_stats.csv |  uniq
+   50  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort |  uniq
+   51  awk -F, '{print $4'} airline_stats.csv | sort |  uniq
+   52  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort |  uniq
+   53  awk --help
+   54  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | sort |  uniq
+   55  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv
+   56  awk --help
+   57  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | wc
+   58  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | sort |  uniq | wc
+   59  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | sort |  uniq
+   60  awk -F, '$1 > 10 {print $4'} airline_stats.csv | sort | wc
+   61  awk -F, '$1 > 15 {print $4'} airline_stats.csv | sort | wc
+   62  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | sort |  uniq | wc
+   63  awk -F, -v Threshold=15 '$1 > $Threshold {print $4'} airline_stats.csv | sort |  wc
+   64  Threshold=15
+   65  awk -F, -v th=$Threshold '$1 > th {print $4}' airline_stats.csv 
+   66  awk -F, -v th=$Threshold '$1 > th {print $4}' airline_stats.csv | sort
+   67* awk -F, -v th=$Threshold '$1 > th {print $4}' airline_stats.csv | wc
+   68  awk -F, '$1 > 15 {print $4'} airline_stats.csv | sort | wc
+   69  awk -v Threshold=15 -F, '$1 > $Threshold {print $4'} airline_stats.csv | sort |  wc
+   70  awk -F, -v th=$Threshold '$1 > th {print $4}' airline_stats.csv | sort
+   71  awk -F, -v th=$Threshold '$1 > th {print $4}' airline_stats.csv | sort | uniq
+   72  tree
+   73  vi airline_inquiry.txt 
+   74  history > a6_cmds.log
