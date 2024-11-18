@@ -1,3 +1,11 @@
 Daily File Cleanup: This task automates the deletion of fake temp files i have in /Users/henrypham/mini-assignments-V31T/A9_cron/temp/to/delete (yes i made my own Users/henrypham directory to make this vm feel more like a windows system)
 Weekly System Backup: This task automates the backup of my Users/henrypham directory every Sunday at 3:00AM
 Disk Usage Report: This task automates the daily sending of a disk usage report to my sjsu email address at 8:30 AM.
+
+What other types of tasks could benefit from automation using cron or at?
+
+cron can be used to automate file cleanups, and for my case i use it to regularly update the software i use on wsl (windows own linux distro). its very useful in automating things i have to do everytime i log into the system anyways.
+
+What potential risks are there with poorly managed autmated tasks, and how can you acoid them (i.e. ensuring backups work correctly)?
+
+Automated tasks provide the risk of deleting files that werent meant to be deleted just because they were placed in the wrong folder. On top of that scheduling too many automated tasks could possible overload the system without knowing, and can cause crashes. The best way to avoid both of these scenaries is to just stress test the automations you are setting up to not only have your own peace of mind but also to know what the limits of your system is.
