@@ -1,0 +1,4 @@
+* * * * * echo "Hey gang" >> cronJobFolder/crontest.log
+0 2 * * * rm -rf /Users/henrypham/mini-assignments-V31T/A9_cron/temp/to/delete/*
+0 3 * * SUN tar -czf /Users/henrypham/backups/backup_$(date + \%F.tar.gz -C /Users/henrypham henrypham
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" henry.pham01@sjsu.edu
