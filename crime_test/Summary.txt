@@ -1,0 +1,5 @@
+Summary:
+
+I created two Python modules: one for validating the Vict Sex and Vict Age columns in a crime dataset and another for calculating the mean and median of Vict Age. Unit tests were written to check edge cases for both modules, ensuring the validations and calculations handle missing or invalid data correctly. These scripts were packaged into a directory with __init__.py, setup.py, and requirements.txt to make the library distributable.
+
+Classmates Feedback:
